@@ -30,14 +30,14 @@ public class Graphpraktikum {
         
         
         
-        g.addEdge(0, 1);
-        g.addEdge(0, 2);
-        g.addEdge(1, 3);
-        g.addEdge(1, 4);
-        g.addEdge(1, 2);
-        g.addEdge(2, 4);
-        g.addEdge(1, 5);
-        g.addEdge(5, 6);
+        g.addEdge(0, 1, 7);
+        g.addEdge(0, 2, 4);
+        g.addEdge(1, 3, 6);
+        g.addEdge(1, 4, 7);
+        g.addEdge(1, 2, 3);
+        g.addEdge(2, 4, 8);
+        g.addEdge(1, 5, 9);
+        g.addEdge(5, 6, 4);
         
         g.bfs(0);
         
